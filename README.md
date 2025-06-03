@@ -3,7 +3,8 @@
 ## 🎯 Descrição
 
 Este sistema calcula a probabilidade de uma pessoa ter uma doença com base no resultado de um teste, utilizando o Teorema de Bayes. 
-As formulas utilizadas aparecem ao iniciar a aplicação
+
+O sistema apesar de simples, foi feito na arquitetura MVC, no model temos a responsabilidade de realizar o calcular, na view a de exibição do layout e dos dados, e o controller de realizar a comunição entre a view e o model. As formulas utilizadas aparecem ao iniciar a aplicação, tanto no layout quanto em um png que gerará automaticamente na mesma pasta do executavel apos o inicio da aplicação.
 
 ---
 
