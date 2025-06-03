@@ -84,6 +84,7 @@ O executável será gerado na pasta:
 
 - Ao rodar o executável, ele criará automaticamente o arquivo formula.png no diretório.
 - Execute sempre no mesmo diretório dos arquivos do projeto.
+- Pode ocorrer de ao iniciar o executavel o app minimizar.
 
 ---
 
