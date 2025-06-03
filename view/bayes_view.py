@@ -39,7 +39,7 @@ class BayesView:
     def _setup_widgets(self):
         tb.Label(self.root, text="Sistema de Detecção de Doença - Teorema de Bayes").pack(pady=10)
         tb.Label(self.root, text="Saber se uma pessoa esta doente conforme o resultado do teste").pack(pady=10)
-        tb.Label(self.root, text="Vinícius Lazzarini Fernandes Torquato RA: 2409922").pack(pady=10)
+        
 
         img = Image.open("formula.png")
         self._generate_formula_image = ImageTk.PhotoImage(img)
