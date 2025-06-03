@@ -87,24 +87,4 @@ O executável será gerado na pasta:
 
 ---
 
-## (Opcional) Arquivo .spec personalizado
-
-Se quiser customizar ainda mais o executável, gere o arquivo .spec:
-
-pyinstaller --onefile --noconsole --name="TeoremaBayes" main.py
-
-Depois, compile com:
-
-pyinstaller TeoremaBayes.spec
-
----
-
-## ✅ Dúvidas
-
-- Pode rodar o Python diretamente ou usar o executável.
-- Se ocorrer erro relacionado ao formula.png, execute no mesmo diretório ou ajuste o caminho no código.
-- Não altere os nomes das pastas: controller, model e view.
-
----
-
 Feito por: Vinícius Lazzarini Fernandes Torquato
