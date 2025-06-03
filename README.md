@@ -2,7 +2,8 @@
 
 ## 🎯 Descrição
 
-Este sistema calcula a probabilidade de uma pessoa ter uma doença com base no resultado de um teste, utilizando o Teorema de Bayes. A aplicação possui uma interface gráfica (GUI) moderna feita com TtkBootstrap.
+Este sistema calcula a probabilidade de uma pessoa ter uma doença com base no resultado de um teste, utilizando o Teorema de Bayes. 
+As formulas utilizadas aparecem ao iniciar a aplicação
 
 ---
 
@@ -13,37 +14,6 @@ Este sistema calcula a probabilidade de uma pessoa ter uma doença com base no r
 - TtkBootstrap
 - Matplotlib
 - Pillow
-
----
-
-## ⚙️ Instalação de dependências
-
-Antes de executar, instale as seguintes bibliotecas:
-
-pip install matplotlib pillow ttkbootstrap
-
----
-
-## 🚀 Como executar a aplicação
-
-1. Baixe ou clone os arquivos do projeto.
-
-2. Estrutura de pastas:
-
-.
-├── main.py
-├── controller
-│   └── bayes_controller.py
-├── model
-│   └── bayes_model.py
-└── view
-    └── bayes_view.py
-
-3. No terminal, execute:
-
-python main.py
-
-A interface será aberta automaticamente.
 
 ---
 
@@ -62,29 +32,11 @@ O sistema exibirá a probabilidade calculada e mostrará a fórmula do Teorema d
 
 ---
 
-## 📦 Como compilar para executável (.exe)
-
-### 1. Instale o PyInstaller:
-
-pip install pyinstaller
-
----
-
-### 2. Compile com:
-
-pyinstaller --onefile --noconsole main.py
-
-O executável será gerado na pasta:
-
-./dist/main.exe
-
----
-
 ### ✅ Importante:
 
 - Ao rodar o executável, ele criará automaticamente o arquivo formula.png no diretório.
 - Execute sempre no mesmo diretório dos arquivos do projeto.
-- Pode ocorrer de ao iniciar o executavel o app minimizar.
+- Ao iniciar o executavel o app minimizar.
 
 ---
 
